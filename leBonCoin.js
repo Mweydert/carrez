@@ -25,6 +25,9 @@ function getData(req, res)
 			property_type = datas[0].children[0].data;
 			rooms = datas[1].children[0].data;
 			Area = datas[2].children[0].data;
+			
+			price = price.match(/[0-9,]/g).join("");
+			Area = Area.match(/[0-9,]/g).join("");
 			 
 			json.properties.price = price;
 			json.properties.city = city;
@@ -48,5 +51,5 @@ function getData(req, res)
 app.get('/scrapeLBC', getData ) ;
 
 app.listen('8081')
-console.log('Magic happens on port 8081');
+console.log('Ready on port 8081');
 //exports = module.exports = app;
