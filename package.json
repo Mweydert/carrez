@@ -6,6 +6,7 @@
   "author"       : "Mweydert",
   "dependencies" : {
 	"ajax"		 : "latest",
+	"body-parser": "latest",
 	"cheerio"	 : "latest",
     "express"    : "latest",
     "request"    : "latest",
