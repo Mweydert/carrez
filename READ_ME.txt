@@ -12,3 +12,4 @@ To do another comparasion get back to "http://localhost/8082/server" and put a n
 The application contains the following issues :
 - I didn't achieve to scrape directly from meilleursagents.com due to the necessity to be connected in order to do severals request.
 	To avoid this problem I download an example of meilleursagents.com page (Courbevoie), so that all leboncoin's ad are compared to the average price in Courbevoie.
+- I don't know why but the server sometimes doesn't respond. Try again and it will works (maximum 3 "node main.js" to make it works
