@@ -45,28 +45,17 @@ function getDataMA(jsonLBC, res)
 
 	if(priceMeter > priceMA)
 	{
-		json.properties.good_deal = false;		
-	}
-	else
-	{
-		json.properties.good_deal = true;
-	}
-	
-	//console.log(json);
-	
-	
-	if(json.properties.good_deal == true)
-	{		
-		//res.sendFile( __dirname  + '\\goodDeal.html');
-		
-		console.log("GOOD DEAL !");
-	}
-	else
-	{
-		//res.sendFile( __dirname  + '\\badDeal.html');	
-		console.log("BAD DEAL !");
+		json.properties.good_deal = false;
+		res.sendFile( __dirname  + '\\badDeal.html');
 
 	}
+	else
+	{
+		json.properties.good_deal = true
+		res.sendFile( __dirname  + '\\goodDeal.html');		
+
+	}
+	
 }
 
 exports.getDataMA = getDataMA;
