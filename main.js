@@ -16,9 +16,7 @@ app.get('/server', function(req, res){
 app.get('/result', function(req, res){
 	
 	var url = req.param("ad-lbc"); 
-		
-	console.log(url);	
-		
+				
 	//scrape Leboncoin et meilleurs Agents
 	leBonCoin.getDataLBC(url, res, meilleursAgents.getDataMA);	
 });
