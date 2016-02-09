@@ -3,7 +3,7 @@ var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 var app     = express();
-var json = require('./leBonCoinSchema.json');
+var json = require('./leboncoinSchema.json');
 
 function getDataLBC(url, page, callbackb)
 {	
