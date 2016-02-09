@@ -1,5 +1,0 @@
-The user has to enter a Leboncoin URL.
-Then he has to push compute button.
-Then the app will compare the leboncoin ad to area price from meilleursagents.com
-The app will tell the user the 2 prices and the difference for price/m²
-The app will print a thumbs up or down if it's a good deal

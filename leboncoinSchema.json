@@ -1,15 +1,13 @@
 {
 "title":"Schema Leboncoin",
 "type":"object",
-"property":
+"properties":
 	{
-	"url":{"type":"string"},
 	"price": {"type":"integer"},
 	"city":{"type":"string"},
 	"zip_code":{"type":"integer"}, 
 	"property_type":{"type":"string"},
-	"area":{"type":"integer"},
+	"Area":{"type":"integer"},
 	"rooms":{"type":"integer"}
-	}, 
-"required":["url", "price", "zip_code", "property_type", "area"]	
+	}
 }
