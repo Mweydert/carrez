@@ -6,6 +6,8 @@ To use the application please follow this steps :
 - Enter the address of a leboncoin's ad and then click on compute
 - See the result
 
+To do another comparasion get back to "http://localhost/8082/server" and put a new leboncoin's ad
+
 
 The application contains the following issues :
 - I didn't achieve to scrape directly from meilleursagents.com due to the necessity to be connected in order to do severals request.
